@@ -1,0 +1,8 @@
+<!-- Example row of columns -->
+<div class="row">
+  <div class="col-md-4" *ngFor="let homeColumn of homeColumns">
+    <h2>{{homeColumn.heading}}</h2>
+    <p>{{homeColumn.body}}</p>
+    <p><a class="btn btn-secondary" href="{{homeColumn.url}}" role="button">View details &raquo;</a></p>
+  </div>
+</div>
